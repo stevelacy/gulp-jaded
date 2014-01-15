@@ -20,7 +20,7 @@
     "should": "*"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha test/main.coffee --reporter spec --require coffee-script"
   },
   "engines": {
     "node": ">= 0.8.0"
