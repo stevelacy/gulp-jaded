@@ -1,0 +1,41 @@
+{
+  "name": "gulp-jaded",
+  "description": "Compile Jaded files with gulp (gulpjs.com)",
+  "version": "0.0.1",
+  "homepage": "http://github.com/stevelacy/gulp-jaded",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevelacy/gulp-jaded.git"
+  },
+  "author": "Steve Lacy me@slacy.me (slacy.me)",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "~2.2.10",
+    "map-stream": "~0.1.0",
+    "jaded": "~0.1.1",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gulp",
+    "jade",
+    "jaded",
+    "gulpplugin",
+    "gulp-plugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/stevelacy/gulp-jaded/raw/master/LICENSE"
+    }
+  ]
+}
