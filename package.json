@@ -1,7 +1,7 @@
 {
   "name": "gulp-jaded",
   "description": "Compile Jaded files with gulp (gulpjs.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "http://github.com/stevelacy/gulp-jaded",
   "repository": {
     "type": "git",
