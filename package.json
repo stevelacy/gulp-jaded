@@ -13,14 +13,14 @@
     "gulp-util": "~2.2.10",
     "map-stream": "~0.1.0",
     "jaded": "~0.1.1",
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.7.1"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
   "scripts": {
-    "test": "mocha test/main.coffee --reporter spec --require coffee-script"
+    "test": "mocha test/main.coffee --reporter spec --require coffee-script --require coffee-script/register"
   },
   "engines": {
     "node": ">= 0.9.0"
