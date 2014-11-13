@@ -10,10 +10,10 @@
   "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
   "main": "./index.js",
   "dependencies": {
-    "coffee-script": "^1.7.1",
-    "gulp-util": "^2.2.20",
+    "coffee-script": "^1.8.0",
+    "gulp-util": "^3.0.1",
     "jaded": "^0.1.2",
-    "map-stream": "^0.1.0"
+    "map-stream": "0.0.5"
   },
   "devDependencies": {
     "mocha": "^2.0.1",
