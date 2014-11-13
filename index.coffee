@@ -8,11 +8,11 @@ module.exports = (options) ->
   modifyContents = (file, cb)->
     return cb null, file if file.isNull()
     return cb new Error "gulp-jaded: Streaming not supported" if file.isStream()
- 
+
     file.contents = new Buffer jaded.compile file.contents.toString(), options
     file.path = gutil.replaceExtension file.path, '.js'
 
     cb null, file
-  
+
 
   return map modifyContents
