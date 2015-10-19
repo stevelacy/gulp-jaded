@@ -32,10 +32,5 @@
     "gulpplugin",
     "gulp-plugin"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/stevelacy/gulp-jaded/raw/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }
